@@ -1,9 +1,9 @@
 -- Tạo cơ sở dữ liệu
-CREATE DATABASE TEST;
+CREATE DATABASE DreawDB;
 GO
 
--- Chọn cơ sở dữ liệu TEST
-USE TEST;
+-- Chọn cơ sở dữ liệu
+USE DreawDB;
 GO
 
 -- Tạo bảng Users
