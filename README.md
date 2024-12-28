@@ -39,7 +39,7 @@ Dựa vào nội dung trong tệp Database.txt, sử dụng SSMS để tạo CSD
 Vào CoreApp, tìm các địa chỉ **192.168.45.212** và thay bằng IP hiện tại của máy bạn (hoặc **127.0.0.1**, nếu muốn nghịch:D)
 
 ### 5. Thứ tự khởi chạy dự án
-#### Chạy tệp app.py trong thư mục để khởi động server Flask:
+#### Chạy tệp app.py trong thư mục **FlaskAPI** để khởi động server Flask:
 ```bash
 python app.py
 ```
