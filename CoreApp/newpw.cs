@@ -16,7 +16,7 @@ namespace Dreaw
     public partial class newpw : Form
     {
         string email;
-        const string serverAdd = "https://192.168.45.212:7183";
+        const string serverAdd = "https://192.168.91.212:7183";
         bool isSending;
         public newpw(string email)
         {

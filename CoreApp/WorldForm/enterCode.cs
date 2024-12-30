@@ -15,7 +15,7 @@ namespace Dreaw.WorldForm
         private TextBox textBox1;
         private Button button1;
         int codee = 0;
-        const string serverAdd = "https://192.168.45.212:7183";
+        const string serverAdd = "https://192.168.91.212:7183";
 
         private void InitializeComponent()
         {

@@ -117,6 +117,9 @@ namespace Server.Controllers
 
         private async Task<bool> SendOTPEmail(string email, string otp)
         {
+            // Bỏ qua kiểm tra chứng chỉ
+            ServicePointManager.ServerCertificateValidationCallback =
+                (sender, certificate, chain, sslPolicyErrors) => true;
             await Task.Delay(100); // Giới thiệu một độ trễ nhỏ nếu cần
             try
             {
@@ -140,8 +143,13 @@ namespace Server.Controllers
                 await smtp.SendMailAsync(mail);
                 return true;
             }
-            catch
+            catch (Exception ex) 
             {
+                Console.WriteLine(ex.Message);
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
                 return false;
             }
         }

@@ -1,4 +1,4 @@
-@SignalRServer_HostAddress = http://192.168.45.212:5151
+@SignalRServer_HostAddress = http://192.168.91.212:5151
 
 GET {{SignalRServer_HostAddress}}/validate/
 Accept: application/json

@@ -17,7 +17,7 @@ namespace Dreaw
     public partial class forgetpw : Form
     {
         bool isSending;
-        const string serverAdd = "https://192.168.45.212:7183";
+        const string serverAdd = "https://192.168.91.212:7183";
         public forgetpw()
         {
             InitializeComponent();

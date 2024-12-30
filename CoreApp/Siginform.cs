@@ -16,7 +16,7 @@ namespace Dreaw
 {
     public partial class Siginform : Form
     {
-        const string serverAdd = "https://192.168.45.212:7183"; //Địa chỉ server
+        const string serverAdd = "https://192.168.91.212:7183"; //Địa chỉ server
         bool isSending = false; //Cái isSending này giống nhau ở nhiều form, nên tui viết
         //1 lần thôi:D Nó tượng trưng cho việc đã gửi request lên server chưa(vì request cần thời 
         //gian để xử lý). Nếu nó là true, sẽ chặn việc gửi request đi tiếp
