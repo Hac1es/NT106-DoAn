@@ -123,6 +123,16 @@ namespace Dreaw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fgw4 {
+            get {
+                object obj = ResourceManager.GetObject("fgw4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap forgetbt1 {
             get {
                 object obj = ResourceManager.GetObject("forgetbt1", resourceCulture);
@@ -166,6 +176,26 @@ namespace Dreaw.Properties {
         internal static System.Drawing.Bitmap login3 {
             get {
                 object obj = ResourceManager.GetObject("login3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login5 {
+            get {
+                object obj = ResourceManager.GetObject("login5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login7 {
+            get {
+                object obj = ResourceManager.GetObject("login7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +336,16 @@ namespace Dreaw.Properties {
         internal static System.Drawing.Bitmap Sigin2 {
             get {
                 object obj = ResourceManager.GetObject("Sigin2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap signup17 {
+            get {
+                object obj = ResourceManager.GetObject("signup17", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

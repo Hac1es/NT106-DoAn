@@ -39,7 +39,7 @@
             // 
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(327, 416);
+            this.txtEmail.Location = new System.Drawing.Point(327, 425);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(378, 51);
@@ -49,7 +49,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Dreaw.Properties.Resources.sendcode2;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(368, 514);
+            this.pictureBox3.Location = new System.Drawing.Point(371, 564);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(226, 39);
@@ -59,8 +59,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.mail1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.fgw4;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1766, 1001);

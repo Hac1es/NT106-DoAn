@@ -85,7 +85,7 @@
             // 
             this.pictureBox2.BackgroundImage = global::Dreaw.Properties.Resources.login3;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Location = new System.Drawing.Point(296, 179);
+            this.pictureBox2.Location = new System.Drawing.Point(298, 182);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(224, 35);
@@ -95,7 +95,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.Sigin2;
+            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.login5;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);

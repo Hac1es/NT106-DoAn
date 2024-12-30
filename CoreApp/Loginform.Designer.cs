@@ -86,19 +86,19 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Dreaw.Properties.Resources.sigbut2;
+            this.pictureBox2.BackgroundImage = global::Dreaw.Properties.Resources.signup17;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Location = new System.Drawing.Point(631, 186);
+            this.pictureBox2.Location = new System.Drawing.Point(611, 187);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(172, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(212, 43);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.Login2;
+            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.login7;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox1.Location = new System.Drawing.Point(1, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -136,8 +136,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

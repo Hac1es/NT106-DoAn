@@ -439,6 +439,11 @@
     <Content Include="libSkiaSharp.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\signup17.png" />
+    <None Include="Resources\login7.png" />
+    <None Include="Resources\login5.png" />
+    <None Include="Resources\fgw4.png" />
+    <None Include="Resources\fgw3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
