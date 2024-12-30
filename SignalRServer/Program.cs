@@ -7,7 +7,7 @@ builder.WebHost.ConfigureKestrel(options =>
     options.Listen(System.Net.IPAddress.Any, 7183, listenOptions =>
     {
         // Sử dụng HTTPS với chứng chỉ tự ký
-        listenOptions.UseHttps(@"C:\Users\nchin\Downloads\SelfSignedCert.pfx", "YourPassword");
+        listenOptions.UseHttps(@"C:\Users\nchin\Downloads\Cert.pfx", "yourpassword");
     });
 });
 

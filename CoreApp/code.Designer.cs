@@ -43,7 +43,7 @@
             // 
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(326, 416);
+            this.textBox1.Location = new System.Drawing.Point(326, 424);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(382, 51);
@@ -65,7 +65,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Dreaw.Properties.Resources.cof2;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(379, 557);
+            this.pictureBox3.Location = new System.Drawing.Point(379, 566);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(207, 39);
@@ -75,7 +75,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.code2;
+            this.pictureBox1.BackgroundImage = global::Dreaw.Properties.Resources.fgw4;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
