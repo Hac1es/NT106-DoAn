@@ -1,5 +1,5 @@
 # Dreaw
-Draw together. Dream together
+Draw together. Dream together.
 ## Tính năng
 
 - Vẽ chung thời gian thực.
