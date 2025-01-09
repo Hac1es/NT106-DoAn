@@ -33,19 +33,18 @@ pip install -r requirements.txt
 ```
 
 ### 3. Tạo cơ sở dữ liệu
-Dựa vào nội dung trong tệp Database.txt, sử dụng SSMS để tạo CSDL.
+Sử dụng nội dung trong tệp Database.txt và Microsoft SQL Server Management Studio (SSMS) để tạo cơ sở dữ liệu cần thiết.
 
-### 4. Sửa địa chỉ IP
-Vào CoreApp, tìm các địa chỉ **192.168.45.212** và thay bằng IP hiện tại của máy bạn (hoặc **127.0.0.1**, nếu muốn nghịch:D)
 
-### 5. Thứ tự khởi chạy dự án
+### 4. Thứ tự khởi chạy dự án
 #### Chạy tệp app.py trong thư mục **FlaskAPI** để khởi động server Flask:
 ```bash
 python app.py
 ```
 #### Sử dụng Visual Studio hoặc CLI để chạy phần C#. Mình sử dụng Visual Studio:
-- Chọn **Server** làm Startup Project
-- Sau đó, mở bao nhiêu debug instance CoreApp tùy bạn (CoreApp nhé, DrawingData không chạy được)
-- Lưu ý: Vì vài vấn đề với SkiaSharp, nên không mở cùng lúc nhiều instance CoreApp trong một cửa số VS được. Bạn cần mở nhiều cửa sổ VS để có thể thử tính năng vẽ chung (tốt nhất là nên thử với nhiều máy trong LAN)
+- Sử dụng Visual Studio để mở và chạy dự án.
+- Đặt Server làm Startup Project.
+- Mở bao nhiêu phiên bản debug của CoreApp tùy ý (chỉ chạy CoreApp, không chạy DrawingData).
+Lưu ý: Do một số vấn đề liên quan đến SkiaSharp, không nên mở nhiều instance của CoreApp trong cùng một cửa sổ Visual Studio. Để kiểm tra tính năng vẽ chung, hãy mở nhiều cửa sổ Visual Studio hoặc thử nghiệm trên các máy khác nhau trong cùng mạng LAN.
 
-### 6. Have Fun! 🎉
+### 5. Have Fun! 🎉
