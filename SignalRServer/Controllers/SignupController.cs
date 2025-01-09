@@ -33,12 +33,13 @@ namespace Server.Controllers
             else
             {
                 var OTP = GenerateOTP();
+                var encryptOTP = AESHelper.Encrypt(OTP);
                 var result = await SendOTPEmail(email, OTP);
                 if (!result)
                 {
                     return Problem();
                 }    
-                return Ok(new { Message = "OTP has been sent to your email.", OTP });
+                return Ok(new { Message = "OTP has been sent to your email.", encryptOTP });
             }
         }
 

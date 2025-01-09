@@ -315,7 +315,7 @@ namespace DoAnPaint
                 return;
             }
             isPainting = true;
-            const string serverAdd = "https://192.168.91.212:7183";
+            const string serverAdd = "https://127.0.0.1:7183";
             SKBitmap croped = new SKBitmap();
             bmp.ExtractSubset(croped, new SKRectI((int)selected.Left, (int)selected.Top, (int)selected.Right, (int)selected.Bottom));
             var content = new MultipartFormDataContent();

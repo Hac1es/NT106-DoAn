@@ -29,12 +29,13 @@ namespace Server.Controllers
             else if (exists) //nếu mail tồn tại
             {
                 var OTP = GenerateVerificationCode();
+                var encryptedOTP = AESHelper.Encrypt(OTP);
                 var result = await SendVerificationEmail(email, OTP);
                 if (!result) //Lỗi SMTP
                 {
                     return Problem();
                 }
-                return Ok(new { Message = "OTP has been sent to your email.", OTP }); //200 OK
+                return Ok(new { Message = "OTP has been sent to your email.", encryptedOTP }); //200 OK
             }
             else
             {

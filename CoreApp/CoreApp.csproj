@@ -183,6 +183,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AESHelper.cs" />
     <Compile Include="code.cs">
       <SubType>Form</SubType>
     </Compile>

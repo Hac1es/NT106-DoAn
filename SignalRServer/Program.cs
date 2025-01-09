@@ -1,15 +1,6 @@
 using SignalRServer.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.ConfigureKestrel(options =>
-{
-    // Lắng nghe trên tất cả các địa chỉ IP và cổng 7183
-    options.Listen(System.Net.IPAddress.Any, 7183, listenOptions =>
-    {
-        // Sử dụng HTTPS với chứng chỉ tự ký
-        listenOptions.UseHttps(@"C:\Users\nchin\Downloads\Cert.pfx", "yourpassword");
-    });
-});
 
 // Add services to the container.
 

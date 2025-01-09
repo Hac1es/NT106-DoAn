@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net.Configuration;
 using System.Net.Http;
 using System.Net.NetworkInformation;
 using System.Text;
@@ -446,11 +447,13 @@ namespace DoAnPaint
         /// <param name="isPreview">Nét vẽ thật hay preview</param>
         private async void SendData(string data, Command command, bool isPreview)
         {
+            data = AESHelper.Encrypt(data);
             await connection.InvokeAsync("BroadcastDraw", data, command, isPreview);
         }
 
         private async void SendMsg(string msg, string name)
         {
+            msg = AESHelper.Encrypt(msg);
             await connection.InvokeAsync("BroadcastMsg", msg, name);
         }
 
@@ -461,10 +464,12 @@ namespace DoAnPaint
         {
             connection.On<string, Command, bool>("HandleDrawSignal", (dataa, commandd, isPrevieww) => 
             {
+                dataa = AESHelper.Decrypt(dataa);
                 BOTQueue.Add((dataa, commandd, isPrevieww));
             });
             connection.On<string, string>("HandleMessage", (mes, who) =>
             {
+                mes = AESHelper.Decrypt(mes);
                 MSGQueue.Add((mes, false, who));
             });
             connection.On("StopConsumer", () =>

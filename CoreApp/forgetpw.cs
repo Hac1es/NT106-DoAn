@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace Dreaw
     public partial class forgetpw : Form
     {
         bool isSending;
-        const string serverAdd = "https://192.168.91.212:7183";
+        const string serverAdd = "https://127.0.0.1:7183";
         public forgetpw()
         {
             InitializeComponent();
@@ -57,6 +58,7 @@ namespace Dreaw
                     var responseContent = await response.Content.ReadAsStringAsync();
                     var responseObject = JsonConvert.DeserializeObject<dynamic>(responseContent);
                     string otp = responseObject?.otp;
+                    otp = AESHelper.Decrypt(otp);
                     code newForm = new code(otp, email, "forgetpw");
                     isSending = false;
                     Cursor.Current = Cursors.Default;

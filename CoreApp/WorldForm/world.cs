@@ -22,9 +22,9 @@ namespace Dreaw
         HubConnection connection;
         SKBitmap btmap;
         bool is_join_a_room;
-        const string serverAdd = "https://192.168.91.212:7183/api/hub"; //Địa chỉ Server
-        const string serverAPIAdd = "https://192.168.91.212:7183";
-        const string serverIP = "192.168.91.212";
+        const string serverAdd = "https://127.0.0.1:7183/api/hub"; //Địa chỉ Server
+        const string serverAPIAdd = "https://127.0.0.1:7183";
+        const string serverIP = "127.0.0.1";
         List<userRoom> userRooms = new List<userRoom>();
         int selectedRoom = -1;
         string roomname;

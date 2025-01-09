@@ -23,7 +23,7 @@ namespace Dreaw
         string password;
         bool _isTicking;
         int timer = 0;
-        const string serverAdd = "https://192.168.91.212:7183";
+        const string serverAdd = "https://127.0.0.1:7183";
         public code(string otp, string name, string email, string password, string @case)
         {
             InitializeComponent();
