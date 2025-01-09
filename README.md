@@ -45,6 +45,6 @@ python app.py
 - Sử dụng Visual Studio để mở và chạy dự án.
 - Đặt Server làm Startup Project.
 - Mở bao nhiêu phiên bản debug của CoreApp tùy ý (chỉ chạy CoreApp, không chạy DrawingData).
-Lưu ý: Do một số vấn đề liên quan đến SkiaSharp, không nên mở nhiều instance của CoreApp trong cùng một cửa sổ Visual Studio. Để kiểm tra tính năng vẽ chung, hãy mở nhiều cửa sổ Visual Studio hoặc thử nghiệm trên các máy khác nhau trong cùng mạng LAN.
+####Lưu ý: Do một số vấn đề liên quan đến SkiaSharp, không nên mở nhiều instance của CoreApp trong cùng một cửa sổ Visual Studio. Để kiểm tra tính năng vẽ chung, hãy mở nhiều cửa sổ Visual Studio hoặc thử nghiệm trên các máy khác nhau trong cùng mạng LAN.
 
 ### 5. Have Fun! 🎉
