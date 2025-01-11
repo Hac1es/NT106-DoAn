@@ -15,8 +15,6 @@ Draw together. Dream together.
 - Microsoft SQL Server 2022
 
 # Hướng dẫn sử dụng dự án
-Dự án này bao gồm hai server (Flask và ASP.NET Core) và yêu cầu cấu hình cơ sở dữ liệu trước khi khởi chạy. Làm theo các bước bên dưới để cài đặt và chạy dự án:
-
 ### 1. Clone repository về máy
 Sao chép repository từ GitHub về máy cục bộ:
 ```bash
