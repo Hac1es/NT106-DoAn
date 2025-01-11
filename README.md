@@ -13,6 +13,7 @@ Draw together. Dream together.
 - .NET 6.0 hoặc cao hơn.
 - Python 3.12 (đúng phiên bản này)
 - Microsoft SQL Server 2022
+- Redis
 
 # Hướng dẫn sử dụng dự án
 ### 1. Clone repository về máy
@@ -35,6 +36,9 @@ Sử dụng nội dung trong tệp Database.txt và Microsoft SQL Server Managem
 Tìm trong CoreApp & DrawingForm dòng "https://d341-2402-800-6388-2a9c-4456-43d5-f-49e5.ngrok-free.app" và sửa thành "https://localhost:7002" (nơi Load Balancer chạy)
 
 ### 5. Thứ tự khởi chạy dự án
+#### Bật Redis
+https://redis.io/blog/redis-on-windows-10/
+
 #### Chạy tệp app.py trong thư mục **FlaskAPI** để khởi động server Flask:
 ```bash
 python app.py
