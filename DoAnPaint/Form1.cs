@@ -315,7 +315,7 @@ namespace DoAnPaint
                 return;
             }
             isPainting = true;
-            const string serverAdd = "https://127.0.0.1:7183";
+            const string serverAdd = "https://d341-2402-800-6388-2a9c-4456-43d5-f-49e5.ngrok-free.app";
             SKBitmap croped = new SKBitmap();
             bmp.ExtractSubset(croped, new SKRectI((int)selected.Left, (int)selected.Top, (int)selected.Right, (int)selected.Bottom));
             var content = new MultipartFormDataContent();

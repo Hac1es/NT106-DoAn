@@ -18,7 +18,7 @@ namespace Dreaw
 {
     public partial class Loginform : Form
     {
-        const string serverAdd = "https://127.0.0.1:7183";
+        const string serverAdd = "https://d341-2402-800-6388-2a9c-4456-43d5-f-49e5.ngrok-free.app";
         bool isSending = false;
         public Loginform()
         {

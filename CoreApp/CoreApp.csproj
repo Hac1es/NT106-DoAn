@@ -440,6 +440,7 @@
     <Content Include="libSkiaSharp.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\Screenshot 2025-01-11 172602.png" />
     <None Include="Resources\signup17.png" />
     <None Include="Resources\login7.png" />
     <None Include="Resources\login5.png" />
