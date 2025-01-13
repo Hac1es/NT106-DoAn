@@ -293,6 +293,26 @@ namespace Dreaw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_13_132911 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-13 132911", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_01_13_133021 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-01-13 133021", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sendcode {
             get {
                 object obj = ResourceManager.GetObject("sendcode", resourceCulture);

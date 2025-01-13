@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.waittoResend = new System.Windows.Forms.Timer(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.waittoResend = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -48,6 +48,10 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(382, 51);
             this.textBox1.TabIndex = 3;
+            // 
+            // waittoResend
+            // 
+            this.waittoResend.Tick += new System.EventHandler(this.waittoResend_Tick);
             // 
             // pictureBox2
             // 
@@ -82,10 +86,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(1776, 1001);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // waittoResend
-            // 
-            this.waittoResend.Tick += new System.EventHandler(this.waittoResend_Tick);
             // 
             // code
             // 
