@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Sử dụng nội dung trong tệp Database.txt và Microsoft SQL Server Management Studio (SSMS) để tạo cơ sở dữ liệu cần thiết.
 
 ### 4. Sửa địa chỉ server
-Tìm trong CoreApp & DrawingForm dòng "https://d341-2402-800-6388-2a9c-4456-43d5-f-49e5.ngrok-free.app" và sửa thành "https://localhost:7002" (nơi Load Balancer chạy)
+Tìm trong CoreApp & DrawingForm dòng "https://b7d5-2402-800-6388-19ab-19cd-c82b-cd24-46af.ngrok-free.app" và sửa thành "https://localhost:7002" (nơi Load Balancer chạy)
 
 ### 5. Thứ tự khởi chạy dự án
 #### Bật Redis
