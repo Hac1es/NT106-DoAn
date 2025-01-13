@@ -13,10 +13,9 @@ Draw together. Dream together.
 - .NET 6.0 hoặc cao hơn.
 - Python 3.12 (đúng phiên bản này)
 - Microsoft SQL Server 2022
+- Redis
 
 # Hướng dẫn sử dụng dự án
-Dự án này bao gồm hai server (Flask và ASP.NET Core) và yêu cầu cấu hình cơ sở dữ liệu trước khi khởi chạy. Làm theo các bước bên dưới để cài đặt và chạy dự án:
-
 ### 1. Clone repository về máy
 Sao chép repository từ GitHub về máy cục bộ:
 ```bash
@@ -33,15 +32,20 @@ pip install -r requirements.txt
 ### 3. Tạo cơ sở dữ liệu
 Sử dụng nội dung trong tệp Database.txt và Microsoft SQL Server Management Studio (SSMS) để tạo cơ sở dữ liệu cần thiết.
 
+### 4. Sửa địa chỉ server
+Tìm trong CoreApp & DrawingForm dòng "https://d341-2402-800-6388-2a9c-4456-43d5-f-49e5.ngrok-free.app" và sửa thành "https://localhost:7002" (nơi Load Balancer chạy)
 
-### 4. Thứ tự khởi chạy dự án
+### 5. Thứ tự khởi chạy dự án
+#### Bật Redis
+https://redis.io/blog/redis-on-windows-10/
+
 #### Chạy tệp app.py trong thư mục **FlaskAPI** để khởi động server Flask:
 ```bash
 python app.py
 ```
 #### Sử dụng Visual Studio hoặc CLI để chạy phần C#. Mình sử dụng Visual Studio:
 - Sử dụng Visual Studio để mở và chạy dự án.
-- Đặt Server làm Startup Project.
+- Đặt **Load Balancing** làm Startup Project.
 - Mở bao nhiêu phiên bản debug của CoreApp tùy ý (chỉ chạy CoreApp, không chạy DrawingData).
 #### Lưu ý: Do một số vấn đề liên quan đến SkiaSharp, không nên mở nhiều instance của CoreApp trong cùng một cửa sổ Visual Studio. Để kiểm tra tính năng vẽ chung, hãy mở nhiều cửa sổ Visual Studio hoặc thử nghiệm trên các máy khác nhau trong cùng mạng LAN.
 
