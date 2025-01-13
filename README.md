@@ -10,7 +10,7 @@ Draw together. Dream together.
 ## Cách cài đặt
 
 ### Yêu cầu hệ thống:
-- .NET 6.0 hoặc cao hơn.
+- .NET Framework 4.8
 - Python 3.12 (đúng phiên bản này)
 - Microsoft SQL Server 2022
 - Redis
